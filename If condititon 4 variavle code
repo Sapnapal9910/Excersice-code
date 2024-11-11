@@ -1,0 +1,64 @@
+package statedemo;
+
+public class Ifcondition4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   int first = 5000;
+   int second = 6000;
+   int third = 7000;
+   int fourth = 8000;
+     
+   if (first > second) {
+	    
+	   if ( first > third) {
+		   
+		   if ( first > fourth) {
+			    
+			   System.out.println("Greatest :"+ first);
+		   }
+			   
+	   }
+   }
+		
+   
+   if (second > first) {
+	    
+	   if ( second > third) {
+		   
+		   if ( second > fourth) {
+			    
+			   System.out.println("Greatest :"+ second);
+		   }
+			   
+	   }
+   }
+   
+   
+   if (third > first) {
+	    
+	   if ( third > second) {
+		   
+		   if (third > fourth) {
+			    
+			   System.out.println("Greatest :"+ third);
+		   }
+			   
+	   }
+   }
+   
+   if ( fourth > first) {
+	    
+	   if ( fourth > second) {
+		   
+		   if ( fourth > third) {
+			    
+			   System.out.println("Greatest :"+ fourth);
+		   }
+			   
+	   }
+   }
+	}
+
+}
+Output:- Greatest 8000
