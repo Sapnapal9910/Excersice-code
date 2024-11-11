@@ -1,0 +1,37 @@
+package statedemo;
+
+public class Ifelsecondition4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int one = 2000;
+		int two = 6000;
+		int three = 7000;
+		int four = 9000;
+	
+		
+		if(one > two) {
+			if( one > four)
+				System.out.println("Greater : "+one);
+			else	
+				System.out.println("Greater : "+four);
+		}
+		
+		if(two > three) {
+			if(two > four)
+				System.out.println("Greater : "+two);
+			else
+				System.out.println("Greater : "+four);
+		}
+		
+
+		else {
+			if(three > four)
+				System.out.println("Greater : "+three);
+			else
+				System.out.println("Greater : "+ four);
+		}
+				
+		}
+	}
+Output :- Greatest 9000
